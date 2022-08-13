@@ -81,6 +81,16 @@ $ sudo ~/pico/picotool/build/picotool load ./blink.uf2
 $ sudo ~/pico/picotool/build/picotool reboot
 ```
 
+### BOOTSELモードへの切り替え
+
+BOOTSELモードになっていないとpicotoolで下記メッセージが表示される
+
+```txt
+No accessible RP2040 devices in BOOTSEL mode were found.
+```
+
+そのときは「RUNボタンを押したままBOOTSELボタンを押して、RUNボタンを離してからBOOTSELボタンを離す」とBOOTSELモードになる
+
 ## VSCodeの設定
 
 拡張機能のインストール
